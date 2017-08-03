@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+# YouTube App with React
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This application uses React.js to allow the user to search for YouTube videos. It calls the YouTube API, parses the response, and displays the first five search results to the user in an intuitive and responsive way. It uses LoDash to delay calling the YouTube API while the user is searching so that the user does not get overwhelmed with too many updates to the displayed search results.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+To get started with this repo, simply clone it or download the zip, cd into the directory, and run:
 
 ```
 > npm install
 > npm start
 ```
+
+The app can then be viewed in by typing "http://localhost:8080/" into the browser.
